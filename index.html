@@ -50,7 +50,7 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          <a class="nav-link js-scroll-trigger" href="#interests">Caculator</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
@@ -248,9 +248,46 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <form id="rendered-form">
+          <div class="rendered-form">
+            <div class="fb-select form-group field-select-1">
+              <label for="select-1" class="fb-select-label">Chọn Nhà Cung Cấp OLT<span class="fb-required">*</span>
+              </label>
+              <select class="form-control" name="select-1" id="select-1" required="required" aria-required="true">
+                <option value="option-1" id="select-1-0">Huawei</option><option value="option-2" selected="true" id="select-1-1">Cisco</option>
+                <option value="option-3" id="select-1-2">DrayTek</option>
+              </select></div><div class="fb-select form-group field-select-2"><label for="select-2" class="fb-select-label">Số Port</label>
+                <select class="form-control" name="select-2" id="select-2">
+                  <option value="option-1" selected="true" id="select-2-0">2 port</option>
+                  <option value="option-2" id="select-2-1">4 port</option><option value="option-3" id="select-2-2">8 port</option>
+                  <option id="select-2-3">16 port</option><option id="select-2-4">32 port</option><option id="select-2-5">128 port</option>
+                </select>
+              </div>
+                <div class="fb-select form-group field-select-3"><label for="select-3" class="fb-select-label">Chọn Nhà Cung Cấp ONT<span class="fb-required">*</span>
+                </label>
+                <select class="form-control" name="select-3" id="select-3" required="required" aria-required="true">
+                  <option value="option-1" id="select-3-0">Huawei</option><option value="option-2" id="select-3-1">Cisco</option>
+                  <option value="option-3" id="select-3-2">Tenda</option>
+                  <option id="select-3-3">Xiaomi</option>
+                  <option id="select-3-4"></option>
+                </select>
+              </div>
+                <div class="fb-number form-group field-number-600">
+                    <label for="number-600" class="fb-number-label">Số toà nhà</label>
+                    <input type="number" class="form-control" name="number-600" value="0" id="number-600">
+                  </div>
+                  <div class="fb-number form-group field-number-4">
+                    <label for="number-4" class="fb-number-label">Số tầng (AVG)</label>
+                    <input type="number" class="form-control" name="number-4" id="number-4">
+                  </div>
+                    <div class="fb-textarea form-group field-textarea-5">
+                      <label for="textarea-5" class="fb-textarea-label">Ghi Chú</label>
+                      <textarea type="textarea" class="form-control" name="textarea-5" id="textarea-5"></textarea></div>
+                      <div class="fb-button form-group field-button-6">
+                        <button type="submit" class="btn-success btn" name="button-6" style="success" id="button-6">Caculate</button>
+                      </div>
+                    </div>
+                  </form>
       </div>
     </section>
 
