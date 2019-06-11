@@ -1,11 +1,11 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
+    "title": "GPON System",
+    "name": "gpon-system",
     "version": "5.0.6",
     "scripts": {
         "start": "gulp watch"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Theme for Bootstrap 4.",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,16 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "homepage": "https://github.com/datphhe130906",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "",
+        "email": "igoteam37@gmail.com"
     },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "license": "",
+    "author": "Zes",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/datphhe130906/grouppj.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.8.2",

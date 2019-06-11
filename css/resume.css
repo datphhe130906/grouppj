@@ -16,7 +16,9 @@ body {
     padding-left: 17rem;
   }
 }
-
+#text-muted{
+  text-align: center;
+}
 h1,
 h2,
 h3,
